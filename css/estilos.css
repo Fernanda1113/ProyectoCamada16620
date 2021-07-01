@@ -1,0 +1,166 @@
+body {
+  background-color: #E1E0E0;
+}
+
+.fondo {
+  width: 100%;
+  height: 200px;
+  border: 10px solid white;
+  background-image: url("../img/fondo.jpg");
+  background-position: -300px -200px;
+  margin: 20px auto;
+  overflow: hidden;
+  -webkit-animation: backBanner 10s linear;
+          animation: backBanner 10s linear;
+}
+
+@-webkit-keyframes backBanner {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -300px -200px;
+  }
+}
+
+@keyframes backBanner {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: -300px -200px;
+  }
+}
+
+.fondo h1 {
+  font-family: "Creepster", cursiva;
+  color: black;
+  text-align: center;
+  word-spacing: 10px;
+  font-size: 300%;
+  margin-top: 60px;
+  -webkit-animation: showText 10s linear;
+          animation: showText 10s linear;
+}
+
+h2, h3 {
+  color: maroon;
+  text-align: center;
+  font-family: "Caveat", cursive;
+}
+
+#menu {
+  font-size: 30px;
+}
+
+#menu nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .btn--boton {
+  display: inline-block;
+  text-decoration: none;
+  color: maroon;
+  margin-right: 20px;
+  font-family: "Creepster", cursiva;
+  margin: 0;
+  padding: 10px;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+}
+
+#menu .btn--boton:hover {
+  color: black;
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
+#historia, #historia--parrafo, td {
+  font-size: 25px;
+  padding: 20px 20px;
+  font-family: 'Caveat', cursive;
+  color: #444;
+  border: solid maroon 1px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-left: 300px;
+}
+
+.images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+  padding: 10px;
+  border: 1px solid maroon;
+}
+
+.images img {
+  height: 200px;
+  width: 200px;
+  margin: 8px;
+  line-height: 75px;
+}
+
+label, h4, .correo, .btn--botones, .validar--validar {
+  font-size: 20px;
+  padding-block: 10px;
+  padding-left: 10px;
+  font-family: "Caveat", cursive;
+  color: maroon;
+  margin-top: 4px;
+  padding: 3px;
+}
+
+.correo {
+  width: 20%;
+  border-radius: 0;
+  line-height: 0.5;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.form-control {
+  border-style: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+}
+
+.footer {
+  width: 50%;
+  height: 338px;
+  margin-left: 300px;
+  background: #ccc;
+  color: maroon;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.footer #footer__location {
+  display: block;
+  background: #ccc;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+  color: maroon;
+}
+/*# sourceMappingURL=estilos.css.map */
