@@ -1,54 +1,5 @@
-@media (max-width: 991px){
-	img, svg {
-    margin-left: 150px;
-	}
-
-	.boton{
-		font-size: 30px;
-	}
-	.validar{
-		font-size: 25px;
-	}
-	#historia{
-		font-family:'Caveat', cursive;
-		font-size: 25px;
-	}
-	
-}
-
-@media (max-width: 602px){
-	.boton{
-		font-size: 22px;
-	}
-	#parrafo td, #parrafos {
-		font-size: 17px;
-		padding: 0px;
-	}
-	img, svg {
-    margin-left: 30px;
-	}
-	.correo{
-		width: 35%;
-		padding: 0px;
-	}
-	.form-label, label{
-		font-size: 25px;
-	}
-}
-
 @media (max-width: 360px){
-	#parrafo td, #parrafos {
-		font-size: 20px;
-		padding: 0px;
-	}
-	img, svg {
-    margin: -30px;
-	}
-	.correo{
-		width: 60%;
-		padding: 0px;
-	}
-	.correo1{
-		width: 95%;
+	#menu{
+		font-size: 24px;
 	}
 }
