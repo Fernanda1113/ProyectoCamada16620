@@ -124,18 +124,22 @@ label, h4, .correo, .btn--botones, .validar--validar{
 }
 .btnWpp{
 	position: fixed;
-	width: 50px;
-	height: 50px;
+	width: 71px;
+	height: 71px;
 	bottom: 30px;
 	right: 30px;
-	background: url(../img/ico.ico);
+	background: url(../img/ico.ico.png);
 	border-radius: 50px;
-    .btnWpp:hover{
-        background: #38b47b66;
-    }
-	
 }
-
+.btnIg{
+	position: fixed;
+	width: 71px;
+	height: 71px;
+	bottom: 105px;
+	right: 30px;
+	background: url(../img/ico.ico2.png);
+	border-radius: 50px;
+}
 
 .footer{
     width: 50%;
