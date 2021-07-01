@@ -204,64 +204,106 @@ label, h4, .correo, .btn--botones, .validar--validar {
   font-size: 25px;
 }
 
-@media (max-width: 602px) {
-  .btn--boton {
-    font-size: 22px;
-  }
-  #historia--parrafo td {
-    font-size: 17px;
-    padding: 0px;
-  }
-  .images img {
-    height: 300px;
-    width: 321px;
-    margin: 8px;
-    line-height: 75px;
-  }
-  .correo {
-    width: 35%;
-    padding: 0px;
-  }
-  .form-label, label {
-    font-size: 25px;
-  }
-}
-
 @media (max-width: 2400px) {
-  #menu {
+  .btn--boton, h2, h3 {
+    font-size: 50px;
+  }
+  td, #historia--parrafo {
     font-size: 40px;
   }
-}
-
-@media (max-width: 602px) {
-  .btn--boton {
-    font-size: 22px;
-  }
-  #historia--parrafo td {
-    font-size: 17px;
-    padding: 0px;
+  .carousel-inner {
+    margin-left: 415px;
   }
   .images img {
-    height: 300px;
-    width: 321px;
-    margin: 8px;
-    line-height: 75px;
+    height: 370px;
+    width: 408px;
   }
   .correo {
-    width: 35%;
-    padding: 0px;
+    width: 28%;
+    border-radius: 0;
+    line-height: 2.5;
+    padding-left: 0px;
+    padding-top: 20px;
   }
-  .form-label, label {
+  label, h4, .correo, .btn--botones, .validar--validar {
+    font-size: 36px;
+    padding-block: 10px;
+    padding-left: 10px;
+    font-family: "Caveat", cursive;
+    color: maroon;
+    margin-top: 4px;
+    padding: 3px;
+  }
+  .form-control {
+    font-size: 2rem;
+  }
+  .footer {
+    margin-left: 620px;
+  }
+  .autor, h5 {
     font-size: 25px;
+  }
+  .form--contacto {
+    margin-top: 5px;
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 1444px) {
+  .footer {
+    margin-left: 414px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .carousel-inner {
+    margin-left: 236px;
+  }
+  .footer {
+    margin-left: 294px;
+  }
   .images img {
-    height: 300px;
-    width: 321px;
-    margin: 8px;
-    line-height: 75px;
+    width: 441px;
+  }
+}
+
+@media (max-width: 631px) {
+  .btn--boton, h2, h3 {
+    font-size: 32px;
+  }
+  td, #historia--parrafo {
+    font-size: 27px;
+  }
+  .carousel-inner {
+    margin-left: 25px;
+  }
+  label, h4, .correo, .btn--botones, .validar--validar {
+    font-size: 26px;
+  }
+  .form-control {
+    font-size: 1rem;
+  }
+  .footer {
+    margin-left: 190px;
+  }
+}
+
+@media (max-width: 433px) {
+  .btn--boton, h2, h3 {
+    font-size: 26px;
+    padding: 8px;
+  }
+  .carousel-inner {
+    margin-left: -6px;
+  }
+  .footer {
+    margin-left: 126px;
+  }
+  #historia, #historia--parrafo, td {
+    font-size: 25px;
+    padding: 7px 5px;
+  }
+  .images img {
+    width: 659px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
