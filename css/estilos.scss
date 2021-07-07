@@ -76,6 +76,16 @@ h2, h3{
         border: solid maroon 1px;
 }
 
+.parrafos{
+    display: grid;
+    grid-column: 1/6;
+    .uno .dos .tres .cuatro .cinco{
+        grid-column: 1;
+        grid-column-end: 4;
+        background-color: #444;
+    }
+}
+
 .carousel-inner {
     position: relative;
     width: 100%;
