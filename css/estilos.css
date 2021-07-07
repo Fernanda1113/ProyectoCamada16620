@@ -80,27 +80,23 @@ h2, h3 {
           transform: scale(1.2, 1.2);
 }
 
+#historia--parrafo #historia {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 5;
+  grid-column: 1/6;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  grid-column-end: 5;
+}
+
 #historia, #historia--parrafo, td {
   font-size: 25px;
   padding: 20px 20px;
   font-family: 'Caveat', cursive;
   color: #444;
   border: solid maroon 1px;
-}
-
-.parrafos {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
-  grid-column: 1/6;
-}
-
-.parrafos .uno .dos .tres .cuatro .cinco {
-  -ms-grid-column: 1;
-  grid-column: 1;
-  grid-column-end: 4;
-  background-color: #444;
 }
 
 .carousel-inner {
