@@ -156,7 +156,7 @@ label, h4, .correo, .btn--botones, .validar--validar{
     color: maroon;
     overflow: hidden;
     border-radius: 50px;
-    #footer__location{
+ #footer__location{
     display: block;
     background:#ccc;
     letter-spacing: 2px;
@@ -243,6 +243,11 @@ label, h4, .correo, .btn--botones, .validar--validar{
     width: 660px;
     }
 }
+@media (max-width: 837px){
+    .carousel-inner {
+        margin-left: 114px;
+        }
+}
 
 @media (max-width: 631px){
 .btn--boton, h2, h3 {
@@ -276,8 +281,8 @@ label, h4, .correo, .btn--botones, .validar--validar {
     margin-left: 109px;
     }
 #historia, #historia--parrafo, td {
-        font-size: 25px;
-        padding: 7px 5px;
+    font-size: 25px;
+    padding: 7px 5px;
     }
 .images img {
     width: 659px;

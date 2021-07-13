@@ -277,6 +277,12 @@ label, h4, .correo, .btn--botones, .validar--validar {
   }
 }
 
+@media (max-width: 837px) {
+  .carousel-inner {
+    margin-left: 114px;
+  }
+}
+
 @media (max-width: 631px) {
   .btn--boton, h2, h3 {
     font-size: 32px;
