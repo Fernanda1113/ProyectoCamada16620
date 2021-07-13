@@ -119,6 +119,9 @@ label, h4, .correo, .btn--botones, .validar--validar{
 	padding-left: 10px;
 	padding-top: 20px;
 }
+.form--contacto{
+    font-family: $tipo-letra;    
+}
 
 .form-control{
     border-style: none;
@@ -161,7 +164,7 @@ label, h4, .correo, .btn--botones, .validar--validar{
     background:#ccc;
     letter-spacing: 2px;
     text-align: center;
-    font-family: 'Caveat', cursive;
+    font-family: $tipo-letra;
     color: maroon;
     }
 
@@ -180,7 +183,7 @@ label, h4, .correo, .btn--botones, .validar--validar{
     font-size: 25px;
 }
 #historia{
-    font-family:'Caveat', cursive;
+    font-family:$tipo-letra;
     font-size: 25px;
 }
 @media(max-width: 2400px){
@@ -205,11 +208,11 @@ label, h4, .correo, .btn--botones, .validar--validar{
         padding-top: 20px;
     }
     
-    label, h4, .correo, .validar--validar {
+    label, h4, .correo, .validar--validar,.form--contacto {
     font-size: 36px;
     padding-block: 10px;
     padding-left: 10px;
-    font-family: "Caveat", cursive;
+    font-family: $tipo-letra;
     color: maroon;
     margin-top: 4px;
     padding: 3px;
@@ -253,17 +256,18 @@ label, h4, .correo, .btn--botones, .validar--validar{
     width: 660px;
     }
 }
+@media (max-width: 837px){
+    .carousel-inner {
+        margin-left: 114px;
+        }
+}
 
 @media (max-width: 864px){
     .carousel-inner {
         margin-left: 113px;
     } 
 }
-@media (max-width: 837px){
-    .carousel-inner {
-        margin-left: 114px;
-        }
-}
+
 
 @media (max-width: 631px){
 .btn--boton, h2, h3 {
