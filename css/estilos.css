@@ -217,13 +217,13 @@ label, h4, .correo, .btn--botones, .validar--validar {
 
 @media (max-width: 2400px) {
   .btn--boton, h2, h3 {
-    font-size: 50px;
+    font-size: 29px;
   }
   td, #historia--parrafo {
     font-size: 29px;
   }
   .carousel-inner {
-    margin-left: 415px;
+    margin-left: 340px;
   }
   .images img {
     height: 370px;
@@ -236,7 +236,7 @@ label, h4, .correo, .btn--botones, .validar--validar {
     padding-left: 0px;
     padding-top: 20px;
   }
-  label, h4, .correo, .btn--botones, .validar--validar {
+  label, h4, .correo, .validar--validar {
     font-size: 36px;
     padding-block: 10px;
     padding-left: 10px;
