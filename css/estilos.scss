@@ -92,16 +92,17 @@ h2, h3{
 
 .images{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-content: space-around;
     padding: 10px;
     border: 1px solid $color-letra;
     img{
-        height: 200px;
-        width: 200px;
+        height: 400px;
+        width: 100%;
         margin: 8px;
         line-height: 75px;
     }
+
 }
 label, h4, .correo, .btn--botones, .validar--validar{
     font-size: 20px;
@@ -169,12 +170,7 @@ label, h4, .correo, .btn--botones, .validar--validar{
     }
 
 }
-.images img {
-    height: 300px;
-    width: 340px;
-    margin: 8px;
-    line-height: 75px;
-}
+
 
 .btn--boton{
     font-size: 30px;
@@ -225,7 +221,14 @@ label, h4, .correo, .btn--botones, .validar--validar{
     .form--contacto {
         margin-top: 5px;
     }
+} 
+
+@media (max-width: 1444px){
+.footer {
+    margin-left: 414px;
+    }
 }
+
 @media (max-width: 1160px){
     .carousel-inner {
         margin-left: 229px;
@@ -233,15 +236,7 @@ label, h4, .correo, .btn--botones, .validar--validar{
     .footer {
         margin-left: 400px;
         }
-    
-    
 }
-@media (max-width: 1444px){
-.footer {
-    margin-left: 414px;
-    }
-}
-
 @media (max-width: 1100px){
 .carousel-inner {
     margin-left: 236px;
