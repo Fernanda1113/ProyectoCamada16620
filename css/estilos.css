@@ -201,7 +201,7 @@ label, h4, .correo, .btn--botones, .validar--validar {
 
 .images img {
   height: 300px;
-  width: 321px;
+  width: 340px;
   margin: 8px;
   line-height: 75px;
 }
@@ -228,10 +228,6 @@ label, h4, .correo, .btn--botones, .validar--validar {
   }
   .carousel-inner {
     margin-left: 340px;
-  }
-  .images img {
-    height: 300px;
-    width: 531px;
   }
   .correo {
     width: 28%;
@@ -285,9 +281,6 @@ label, h4, .correo, .btn--botones, .validar--validar {
   .footer {
     margin-left: 294px;
   }
-  .images img {
-    width: 660px;
-  }
 }
 
 @media (max-width: 837px) {
@@ -337,9 +330,6 @@ label, h4, .correo, .btn--botones, .validar--validar {
   #historia, #historia--parrafo, td {
     font-size: 25px;
     padding: 7px 5px;
-  }
-  .images img {
-    width: 658px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
