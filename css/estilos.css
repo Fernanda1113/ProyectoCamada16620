@@ -99,36 +99,13 @@ h2, h3 {
   border: solid maroon 1px;
 }
 
-.carousel-inner, .carousel-item {
+.carousel-inner, img {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   height: 70%;
   overflow: hidden;
-}
-
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 5px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  border: 1px solid maroon;
-}
-
-.row .images {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  padding: 5px;
-  width: 49%;
-  height: 50%;
-}
-
-.row .images img {
-  margin-top: 5px;
 }
 
 video {
