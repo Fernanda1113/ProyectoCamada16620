@@ -146,6 +146,10 @@ h2, h3 {
   border: solid maroon 1px;
 }
 
+.carousel-slide {
+  height: 50vh;
+}
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
