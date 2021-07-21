@@ -245,10 +245,6 @@ label, h4, .correo, .btn--botones, .validar--validar {
   color: maroon;
 }
 
-.footer #footer__location p {
-  margin-top: -14px;
-}
-
 .btn--boton {
   font-size: 30px;
 }
