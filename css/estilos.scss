@@ -68,19 +68,56 @@ h2, h3{
     }
     
 }
-#historia--parrafo #historia{
+.card-group{
+    width: 100%;
+    min-width: 1200px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    .card{
+        width: 330px;
+        height: 690px;
+        border-radius: 4px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25;
+
+        img{
+            width: 100%;
+            height: 220px;
+        }
+        p{
+            padding: 0 1rem;
+            font-size: 25px;
+            font-weight: 300;
+            font-family: $tipo-letra;
+        }
+        a{
+            font-weight: 500;
+            text-decoration: none;
+            color: $color-letra;
+            font-family: $tipo-letra2;
+        }
+    }
+}
+
+#historia--parrafo{
     display: grid;
     grid-column: 1/6;
     grid-column: 2;
     grid-column-end: 5;
 }
-#historia, #historia--parrafo, td{
+ #historia--parrafo, td{
     font-size: 25px;
         padding: -1px 20px;
         font-family: $tipo-letra;
         color: #444;
         border: solid maroon 1px;
-}
+ }
 
 
 .row{
@@ -173,10 +210,7 @@ label, h4, .correo, .btn--botones, .validar--validar{
 .validar--validar{
     font-size: 25px;
 }
-#historia{
-    font-family:$tipo-letra;
-    font-size: 25px;
-}
+
 h2, h3{
     font-size: 50px;
 }
@@ -226,7 +260,7 @@ label, h4, .correo, .btn--botones, .validar--validar {
 .footer {
     margin-left: 109px;
     }
-#historia, #historia--parrafo, td {
+#historia--parrafo, td {
     font-size: 25px;
     padding: 7px 5px;
     }
