@@ -110,14 +110,15 @@ h2, h3 {
 }
 
 .row .bloque {
-  -webkit-box-flex: 100%;
-      -ms-flex: 100%;
-          flex: 100%;
-  width: 50%;
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  padding: 5px;
 }
 
 .row .bloque img {
-  margin-top: 5px;
+  width: 100%;
+  margin: 5px;
 }
 
 video {
