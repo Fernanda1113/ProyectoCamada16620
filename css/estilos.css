@@ -49,37 +49,60 @@ h2, h3 {
   font-family: "Caveat", cursive;
 }
 
-#menu {
-  font-size: 30px;
+#btn-menu {
+  display: none;
 }
 
-#menu nav {
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+}
+
+header label :hover {
+  cursor: pointer;
+  background: rgba(24, 0, 0, 0.3);
+}
+
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
-#menu .btn--boton {
-  display: inline-block;
-  text-decoration: none;
-  color: maroon;
-  margin-right: 20px;
-  font-family: "Creepster", cursiva;
-  margin: 0;
-  padding: 10px;
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
+.menu li a {
+  display: block;
+  padding: 15px 20px;
 }
 
-#menu .btn--boton:hover {
-  color: black;
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-}
-
+/*.menu{
+    font-size: 30px;
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    .btn--boton{
+        display: inline-block;
+        text-decoration: none;
+        color: $color-letra;
+        margin-right: 20px;
+        font-family: $tipo-letra2;
+        margin: 0;
+        padding: 10px;
+        transition: all 200ms;
+       
+    }
+    .btn--boton:hover{
+        color: black;
+        transform: scale(1.2, 1.2);
+    }
+    
+}*/
 .card-body {
   width: 100%;
   height: 325px;
@@ -222,10 +245,6 @@ label, h4, .correo, .btn--botones, .validar--validar {
   color: maroon;
 }
 
-.btn--boton {
-  font-size: 30px;
-}
-
 .validar--validar {
   font-size: 25px;
 }
@@ -238,43 +257,38 @@ label {
   font-size: 30px;
 }
 
-@media (max-width: 804px) {
-  .card-group {
-    min-width: 500px;
+@media (max-width: 1250px) {
+  .card-body {
+    width: 100%;
+    height: 110px;
+  }
+  .card-text {
+    display: none;
   }
 }
 
-@media (max-width: 631px) {
-  .btn--boton, h2, h3 {
+@media (max-width: 749px) {
+  .card-body {
+    width: 100%;
+    height: 210px;
+  }
+  .card-text {
+    display: unset;
+  }
+}
+
+@media (max-width: 412px) {
+  .menu .btn--boton {
+    font-family: "Caveat", cursive;
     font-size: 40px;
+    padding: 5px;
   }
-  td, #historia--parrafo {
-    font-size: 27px;
+  .card-body {
+    width: 100%;
+    height: 280px;
   }
-  td label, td h4, td .correo, td .btn--botones, td .validar--validar, #historia--parrafo label, #historia--parrafo h4, #historia--parrafo .correo, #historia--parrafo .btn--botones, #historia--parrafo .validar--validar {
-    font-size: 26px;
-  }
-  td .form-control, #historia--parrafo .form-control {
-    font-size: 1rem;
-  }
-  td .images, #historia--parrafo .images {
-    -webkit-box-flex: 100%;
-        -ms-flex: 100%;
-            flex: 100%;
-  }
-}
-
-@media (max-width: 631px) and (max-width: 433px) {
-  .btn--boton, h2, h3 {
-    font-size: 26px;
-    padding: 4px;
-  }
-}
-
-@media (max-width: 631px) {
-  #historia--parrafo, td {
-    font-size: 25px;
-    padding: 7px 5px;
+  .card-text {
+    display: unset;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
