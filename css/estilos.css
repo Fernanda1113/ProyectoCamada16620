@@ -168,7 +168,7 @@ video {
   margin: 20px;
 }
 
-label, h4, .correo, .btn--botones, .validar--validar {
+h4, .correo, .btn--botones, .validar--validar {
   font-size: 20px;
   padding-block: 10px;
   padding-left: 10px;
@@ -247,10 +247,6 @@ label, h4, .correo, .btn--botones, .validar--validar {
 
 h2, h3 {
   font-size: 50px;
-}
-
-label {
-  font-size: 30px;
 }
 
 @media (max-width: 1250px) {
