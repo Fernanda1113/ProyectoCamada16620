@@ -41,12 +41,6 @@ body{
     text-align: $aling;
     font-family: $family;    
 }
-@mixin imagenes($width) {
-    width: 200px;
-    height: 200px;
-    margin-top: 5px;
-    padding: 10px;
-}
 h2, h3{
     @include crear($color-letra, center, $tipo-letra);
 }
@@ -127,8 +121,21 @@ h2, h3{
  .carousel-slide{
      height: 50vh;
  }
- 
-
+ img{
+     width: 100%;
+ }
+ .contenedor{
+     display: flex;
+     padding: 5px;
+     flex-wrap: wrap;
+     .galeria{
+         flex: 25%;
+         padding: 5px;
+         img{
+             margin-top: 5px;
+         }
+     }
+ }
 video{
     margin: 20px;
 }
@@ -220,6 +227,9 @@ h2, h3{
     }
 }
 @media(max-width:768px){
+    .galeria{
+        flex: 100%;
+    }
 .card-body{
         width: 100%;
         height: 210px;
