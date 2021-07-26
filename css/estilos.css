@@ -147,26 +147,6 @@ h2, h3 {
   height: 50vh;
 }
 
-.galeria {
-  width: 100%;
-  margin: auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -webkit-column-gap: 0.5rem;
-          column-gap: 0.5rem;
-  row-gap: .5rem;
-}
-
-.galeria .imagen {
-  width: 100%;
-}
-
-.galeria .imagen img {
-  width: 100%;
-}
-
 video {
   margin: 20px;
 }
@@ -264,10 +244,6 @@ h2, h3 {
   .card-text {
     display: none;
   }
-  .galeria {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-  }
 }
 
 @media (max-width: 768px) {
@@ -278,10 +254,6 @@ h2, h3 {
   .card-text {
     display: unset;
   }
-  .galeria {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 @media (max-width: 412px) {
@@ -291,10 +263,6 @@ h2, h3 {
   }
   .correo {
     width: 40%;
-  }
-  .galeria {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -309,10 +277,6 @@ h2, h3 {
   }
   .card-body .card-text {
     display: none;
-  }
-  .galeria {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
   }
 }
 /*# sourceMappingURL=estilos.css.map */

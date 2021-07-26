@@ -41,6 +41,12 @@ body{
     text-align: $aling;
     font-family: $family;    
 }
+@mixin imagenes($width) {
+    width: 200px;
+    height: 200px;
+    margin-top: 5px;
+    padding: 10px;
+}
 h2, h3{
     @include crear($color-letra, center, $tipo-letra);
 }
@@ -121,21 +127,7 @@ h2, h3{
  .carousel-slide{
      height: 50vh;
  }
- .galeria{
-    .imagen{
-        width: 100%;
-        img{
-            width: 100%;
-        }
-    }
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 0.5rem;
-    row-gap: .5rem;
- }
-
+ 
 
 video{
     margin: 20px;
@@ -226,9 +218,6 @@ h2, h3{
     .card-text{
         display: none;
     }
-    .galeria{
-        grid-template-columns: repeat(4, 1fr);
-    }
 }
 @media(max-width:768px){
 .card-body{
@@ -237,9 +226,6 @@ h2, h3{
 }
     .card-text{
         display: unset;
-    }
-    .galeria{
-        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -250,9 +236,6 @@ h2, h3{
     }
 .correo{
     width: 40%;
-    }
-.galeria{
-        grid-template-columns: repeat(2, 1fr);
     }
 }
 @media (max-width:360px) {
@@ -270,9 +253,6 @@ h2, h3{
         display: none;
 
         }
-    }
-    .galeria{
-        grid-template-columns: repeat(1, 1fr);
     }
 }
 
