@@ -49,32 +49,11 @@ h2, h3 {
   font-family: "Caveat", cursive;
 }
 
-#btn-menu {
-  margin-top: -100px;
-  display: none;
-}
-
-header label {
-  margin-top: -29px;
-  display: none;
-  width: 30px;
-  height: 100px;
-  padding: 10px;
-}
-
-header label :hover {
-  cursor: pointer;
-  background: rgba(24, 0, 0, 0.3);
-}
-
-.menu {
+#menu {
   font-size: 30px;
 }
 
-.menu ul {
-  margin: -38px;
-  list-style: none;
-  padding: 0;
+#menu nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -83,20 +62,23 @@ header label :hover {
           justify-content: center;
 }
 
-.menu li :hover {
+#menu .btn--boton {
+  display: inline-block;
+  text-decoration: none;
+  color: maroon;
+  margin-right: 20px;
+  font-family: "Creepster", cursiva;
+  margin: 0;
+  padding: 10px;
+  -webkit-transition: all 200ms;
+  transition: all 200ms;
+  font-size: 30px;
+}
+
+#menu .btn--boton:hover {
   color: black;
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
-}
-
-.menu li a {
-  display: block;
-  padding: 15px 20px;
-  color: maroon;
-  text-decoration: none;
-  font-family: "Creepster", cursiva;
-  -webkit-transition: all 200ms;
-  transition: all 200ms;
 }
 
 .card-body {
@@ -107,12 +89,13 @@ header label :hover {
 }
 
 .card-body a {
-  color: white;
+  font-size: 20px;
+  padding-block: 10px;
+  padding-left: 10px;
   font-family: "Caveat", cursive;
-  text-decoration: none;
-  font-size: 25px;
-  margin-top: auto;
-  font-weight: 600;
+  color: white;
+  margin-top: 4px;
+  padding: 3px;
 }
 
 .card-body a :hover {
@@ -164,11 +147,31 @@ header label :hover {
   height: 50vh;
 }
 
+.galeria {
+  width: 100%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 0.5rem;
+          column-gap: 0.5rem;
+  row-gap: .5rem;
+}
+
+.galeria .imagen {
+  width: 100%;
+}
+
+.galeria .imagen img {
+  width: 100%;
+}
+
 video {
   margin: 20px;
 }
 
-h4, .correo, .btn--botones, .validar--validar {
+.titulo, .correo, .btn--botones, .validar--validar {
   font-size: 20px;
   padding-block: 10px;
   padding-left: 10px;
@@ -225,7 +228,7 @@ h4, .correo, .btn--botones, .validar--validar {
 
 .footer {
   width: 100%;
-  height: 300px;
+  height: 360px;
   background: #ccc;
   color: maroon;
   overflow: hidden;
@@ -249,6 +252,10 @@ h2, h3 {
   font-size: 50px;
 }
 
+.titulo {
+  font-size: 30px;
+}
+
 @media (max-width: 1250px) {
   .card-body {
     width: 100%;
@@ -257,39 +264,13 @@ h2, h3 {
   .card-text {
     display: none;
   }
+  .galeria {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  header label {
-    display: block;
-  }
-  header .menu {
-    position: absolute;
-    background: black;
-    width: 60%;
-    margin-left: -70%;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  header .menu ul {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  header .menu li {
-    -webkit-box-flex: none;
-        -ms-flex-positive: none;
-            flex-grow: none;
-    text-align: start;
-  }
-  header .menu li a {
-    padding: 3px;
-  }
-  #btn-menu:checked ~ .menu {
-    margin: 0;
-    margin-left: 60px;
-  }
   .card-body {
     width: 100%;
     height: 210px;
@@ -297,17 +278,13 @@ h2, h3 {
   .card-text {
     display: unset;
   }
+  .galeria {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 412px) {
-  .menu {
-    width: 40%;
-    margin-left: -200%;
-    font-size: 20px;
-  }
-  .menu .btn--boton {
-    font-family: "Caveat", cursive;
-  }
   .card-body {
     width: 100%;
     height: 270px;
@@ -315,15 +292,27 @@ h2, h3 {
   .correo {
     width: 40%;
   }
+  .galeria {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media (max-width: 338px) {
-  .menu .card-body {
+@media (max-width: 360px) {
+  #menu .btn--boton {
+    font-size: 25px;
+    padding: 5px;
+  }
+  .card-body {
     width: 100%;
     height: 110px;
   }
-  .menu .card-text {
+  .card-body .card-text {
     display: none;
+  }
+  .galeria {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 /*# sourceMappingURL=estilos.css.map */
