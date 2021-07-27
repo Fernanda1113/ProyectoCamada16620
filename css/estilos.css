@@ -312,7 +312,7 @@ h2, h3 {
 @media (max-width: 360px) {
   #menu .btn--boton {
     font-size: 25px;
-    padding: 5px;
+    padding: 3px;
   }
   .card-body {
     width: 100%;
