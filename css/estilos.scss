@@ -206,13 +206,7 @@ video{
     color: maroon;
 
     }
-
 }
-
-.validar--validar{
-    font-size: 25px;
-}
-
 h2, h3{
     font-size: 50px;
 }
@@ -220,7 +214,7 @@ h2, h3{
     font-size: 30px;
 }
 
-@media(max-width:1250px){
+@media(max-width:1200px){
     .card-body{
         width: 100%;
         height: 110px;
@@ -232,7 +226,7 @@ h2, h3{
         grid-template-columns: repeat(4, 1fr);
     }
 }
-@media(max-width:1199px){
+@media(max-width:1024px){
     .card-body{
     width: 100%;
     height: 134px;
@@ -251,7 +245,13 @@ h2, h3{
     }
 }
 
-@media(max-width:412px){
+@media(max-width:480px){
+    #menu{
+        .btn--boton{
+            font-size: 20px;
+            padding: 2px;
+        }
+    }
 .card-body{
     width: 100%;
     height: 270px;
@@ -263,16 +263,16 @@ h2, h3{
     grid-template-columns: repeat(2, 1fr);
 }
 }
-@media (max-width:360px) {
+@media (max-width:320px) {
     #menu{
         .btn--boton{
-            font-size: 25px;
-            padding: 4px;
+            font-size: 20px;
+            padding: 2px;
         }
     }    
     .card-body{
         width: 100%;
-        height: 110px;
+        height: 135px;
     
     .card-text{
         display: none;
