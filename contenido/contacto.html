@@ -3,15 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-	<meta name="keywords" content="Contar historias de terror" />
+	<meta name="keywords" content="Contar historias de terror">
 	<meta name="description"
-		content="Este es un sitio web para compartir historias paranormales que conozcas o te hayan pasado." />
-	<meta name="author" content="Erika Puentes" />
-	<meta name="copyright" content="Propietario del copyright Erika Puentes" />
-	<meta name="robots" content="index" />
-	<meta name="robots" content="noindex" />
-	<meta http-equiv="cache-control" content="no-cache" />
-	<meta name="google" content="nositelinkssearchbox" />
+		content="Este es un sitio web para compartir historias paranormales que conozcas o te hayan pasado.">
+	<meta name="author" content="Erika Puentes">
+	<meta name="copyright" content="Propietario del copyright Erika Puentes">
+	<meta name="robots" content="index">
+	<meta name="robots" content="noindex">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta name="google" content="nositelinkssearchbox">
 	<title>Comparte tu historia</title>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
@@ -42,28 +42,26 @@
     </div>
     <hr>
 		<!--INICIO CONTACTO-->
-    <form>
-      <p class="form--contacto">
-        <label class="titulo" for="nombre">Nombre:</label>
-        <input type="text" name="nombre" placeholder="Ingresa tu nombre">
-        <label class="titulo">Email:</label>
-		<input type="text" name="email" placeholder="Ingresa tu email">
-      </p>
-      <p class="form--contacto">
-        <label class="titulo" for="mensaje">Mensaje:</label>
-        <textarea name="mensaje" rows="4" cols="80"></textarea>
-      </p>
-      <p class="form--contacto">
-        <label class="titulo" for="edad">Edad</label> 
-        <select name="edad">
-          <option value="menor">Soy menor de edad</option>
-          <option value="adulto">Soy adulto</option>
-        </select>
-      </p>
-      
-      <input class="btn--botones" type="submit" name="enviar" value="Enviar">
-      
-    </form>
+     <div class="correo">
+        <label class="titulo">Nombre:</label>
+        <input type="text" class="form-control" placeholder="Titulo de la historia">
+        <label for="exampleFormControlInput1" class="titulo">Email:</label>
+        <input type="email" class="form-control" id="Input1" placeholder="ingresa@correo.com">
+      </div>
+      <div class="correo__dos">
+        <form action="recibe.html" method="POST" enctype="multipart/form-data">
+          <label for="exampleFormControlTextarea1" class="titulo">Mensaje:</label>
+          <textarea class="form-control" id="Textarea1" s="3"></textarea>
+          <p class="form--contacto">
+            <label class="titulo" for="edad">Edad:</label> 
+            <select name="edad">
+              <option value="menor">Soy menor de edad</option>
+              <option value="adulto">Soy adulto</option>
+            </select>
+          </p>
+          <input class="btn--botones" type="submit" name="enviar" value="Enviar">
+        </form>    
+      </div>
 	</ul>
 
   <hr>
