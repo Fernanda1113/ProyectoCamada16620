@@ -108,7 +108,7 @@ h2, h3 {
   font-size: 20px;
 }
 
-.card-body h5 {
+.card-body h6 {
   font-family: "Caveat", cursive;
   color: black;
   font-size: 25px;
@@ -320,7 +320,6 @@ h2, h3 {
   }
   .card-body .card-author {
     display: unset;
-    color: black;
   }
   .card-body a {
     margin-top: 0px;
